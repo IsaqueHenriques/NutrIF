@@ -1,5 +1,8 @@
-<mat-toolbar>Header</mat-toolbar>
+<header>
+<mat-toolbar></mat-toolbar>
+</header>
 
+<main>
 <mat-card>
     <mat-card-title>Login</mat-card-title>
     
@@ -10,14 +13,17 @@
     
       <mat-form-field>
           <input matInput placeholder="Senha" [type]="hide ? 'password' : 'text'">
-          <i matSuffix (click)="hide = !hide" class="material-icons">{{hide ? 'visibility' : 'visibility_off'}}</i>
+          <i matSuffix (click)="hide = !hide" class="material-icons">{{hide ? 'visibility_off' : 'visibility'}}</i>
         </mat-form-field>
     </mat-card-content>
     <br>
     <mat-card-content>
-        <button mat-raised-button color="primary">Entrar</button>
+        <button mat-raised-button color="primary"><a routerLink="telaprincipal">Entrar</a></button>
     </mat-card-content>
 
 </mat-card>
+</main>
 
-<mat-toolbar id="footertool">Footer</mat-toolbar>
+<footer>
+<mat-toolbar id="footertool"></mat-toolbar>
+</footer>

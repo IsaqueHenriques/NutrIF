@@ -48,11 +48,15 @@ span {
   height: 80px;
 }
 
-#footertool {
+footer {
   bottom: 0;
-  position: absolute;
+  position: relative
 }
 
-#footertool span {
+footer span {
   text-align: center;
+}
+
+body ul{
+  display: block;
 }

@@ -1,0 +1,58 @@
+.example-container {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    margin: -8px;
+    border: 1px solid #555;
+  }
+
+  mat-drawer {
+    width: 350px;
+  }
+  .mat-card-actions, .mat-card-content, .mat-card-subtitle, .mat-card-title {
+    display: block;
+    margin-bottom: 16px;
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+
+
+mat-drawer{
+  border-right: 1px solid rgba(0,0,0,.4);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: -40px;
+}
+
+.mat-card {
+  height: auto;
+}
+
+span {
+  width: 100%;
+  text-align: right; 
+}
+
+.mat-toolbar {
+  background: rgba(0, 0, 231, 0.8);
+  color: rgba(0,0,0,.87);
+}
+
+.maior {
+  height: 80px;
+}
+
+#footertool {
+  bottom: 0;
+  position: absolute;
+}
+
+#footertool span {
+  text-align: center;
+}

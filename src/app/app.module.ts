@@ -15,6 +15,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { TelaPrincipalComponent } from './tela-principal/tela-principal.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { UsuarioService } from "./objetos/service/usuario.service";
 
 
 

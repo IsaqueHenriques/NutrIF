@@ -1,122 +1,127 @@
-<mat-drawer-container class="example-container">
-    <mat-drawer mode="side" opened="true">
-        <mat-toolbar class="maior"></mat-toolbar>
-        <mat-card>
-            <ul>
-                <li>
-                    <mat-card-content>
-                        Alguma Coisa
-                    </mat-card-content>
-                </li>
-                <li>
-                    <mat-card-content>
-                        Alguma Coisa
-                    </mat-card-content>
-                </li>
-                <li>
-                    <mat-card-content>
-                        Alguma Coisa
-                    </mat-card-content>
-                </li>
-                <li>
-                    <mat-card-content>
-                        Alguma Coisa
-                    </mat-card-content>
-                </li>
-                <li>
-                        <mat-card-content>
-                            Alguma Coisa
-                        </mat-card-content>
-                    </li>
-                    <li>
-                        <mat-card-content>
-                            Alguma Coisa
-                        </mat-card-content>
-                    </li>
-                    <li>
-                        <mat-card-content>
-                            Alguma Coisa
-                        </mat-card-content>
-                    </li>
-                    <li>
-                        <mat-card-content>
-                            Alguma Coisa
-                        </mat-card-content>
-                    </li>
-                
-            </ul>
-        </mat-card>
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer mode="side" opened="true">
+    <mat-toolbar class="maior"></mat-toolbar>
+    <mat-card>
+      <ul>
+        <li>
+          <mat-card-content>
+            Alguma Coisa
+          </mat-card-content>
+        </li>
+        <li>
+          <mat-card-content>
+            Alguma Coisa
+          </mat-card-content>
+        </li>
+        <li>
+          <mat-card-content>
+            Alguma Coisa
+          </mat-card-content>
+        </li>
+        <li>
+          <mat-card-content>
+            Alguma Coisa
+          </mat-card-content>
+        </li>
+        <li>
+          <mat-card-content>
+            Alguma Coisa
+          </mat-card-content>
+        </li>
+        <li>
+          <mat-card-content>
+            Alguma Coisa
+          </mat-card-content>
+        </li>
+        <li>
+          <mat-card-content>
+            Alguma Coisa
+          </mat-card-content>
+        </li>
+        <li>
+          <mat-card-content>
+            Alguma Coisa
+          </mat-card-content>
+        </li>
 
-    </mat-drawer>
+      </ul>
+    </mat-card>
+  </mat-drawer>
 
+<mat-drawer-content>
+  <header>
+    <mat-toolbar>
+      <button id="tool" mat-button (click)="drawer.toggle()">
+        <a>
+          <i class="material-icons">storage</i>
+        </a>
+      </button>
+        <span>
+            <button mat-icon-button routerLink=''>
+                <a>
+                    <i class="material-icons">exit_to_app</i>
+                </a>
+            </button>
+        </span>
+    </mat-toolbar>
+  </header>
 
-    <mat-drawer-content>
-        <header>
-        <mat-toolbar>
-            <span>
-                <button mat-icon-button>
-                    <a routerLink="">
-                        <i class="material-icons">exit_to_app</i>
-                    </a>
-                </button>
-            </span>
-        </mat-toolbar>
-    </header>
+  <body>
+  <ul>
+    <li>
+      <mat-card>
+        <mat-card-content>
+          <h2>Alguma Coisa</h2>
+        </mat-card-content>
+      </mat-card>
+    </li>
+    <li>
+      <mat-card>
+        <mat-card-content>
+          <h2>Segunda coisa</h2>
+        </mat-card-content>
+      </mat-card>
+    </li>
+    <li>
+      <mat-card>
+        <mat-card-content>
+          <h2>Alguma Coisa</h2>
+        </mat-card-content>
+      </mat-card>
+    </li>
+  </ul>
 
-        <body>
-            <ul>
-                <li>
-                    <mat-card>
-                        <mat-card-content>
-                            <h2>Alguma Coisa</h2>
-                        </mat-card-content>
-                    </mat-card>
-                </li>
-                <li>
-                    <mat-card>
-                        <mat-card-content>
-                            <h2>Segunda coisa</h2>
-                        </mat-card-content>
-                    </mat-card>
-                </li>
-                <li>
-                    <mat-card>
-                        <mat-card-content>
-                            <h2>Alguma Coisa</h2>
-                        </mat-card-content>
-                    </mat-card>
-                </li>
-            </ul>
+  <ul>
+    <li>
+      <mat-card>
+        <mat-card-content>
+          <h2>Alguma Coisa</h2>
+        </mat-card-content>
+      </mat-card>
+    </li>
+    <li>
+      <mat-card>
+        <mat-card-content>
+          <h2>Segunda coisa</h2>
+        </mat-card-content>
+      </mat-card>
+    </li>
+    <li>
+      <mat-card>
+        <mat-card-content>
+          <h2>Alguma Coisa</h2>
+        </mat-card-content>
+      </mat-card>
+    </li>
+  </ul>
+  </body>
 
-            <ul>
-                    <li>
-                        <mat-card>
-                            <mat-card-content>
-                                <h2>Alguma Coisa</h2>
-                            </mat-card-content>
-                        </mat-card>
-                    </li>
-                    <li>
-                        <mat-card>
-                            <mat-card-content>
-                                <h2>Segunda coisa</h2>
-                            </mat-card-content>
-                        </mat-card>
-                    </li>
-                    <li>
-                        <mat-card>
-                            <mat-card-content>
-                                <h2>Alguma Coisa</h2>
-                            </mat-card-content>
-                        </mat-card>
-                    </li>
-                </ul>
-        </body>
+  <footer>
+    <mat-toolbar>
+      <span>Footer</span>
+    </mat-toolbar>
+  </footer>
 
-        <footer>
-            <mat-toolbar>
-                <span>Footer</span>
-            </mat-toolbar>
-        </footer>
-    </mat-drawer-content>
+</mat-drawer-content>
+
 </mat-drawer-container>

@@ -36,7 +36,7 @@ li {
 
 span {
   width: 100%;
-  text-align: right; 
+  text-align: right;
 }
 
 .mat-toolbar {
@@ -59,4 +59,22 @@ footer span {
 
 body ul{
   display: block;
+}
+
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+@media (max-width: 1024px) {
+  mat-drawer{
+
+  }
 }

@@ -1,0 +1,80 @@
+.example-container {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    margin: -8px;
+    border: 1px solid #555;
+  }
+
+  mat-drawer {
+    width: 350px;
+  }
+  .mat-card-actions, .mat-card-content, .mat-card-subtitle, .mat-card-title {
+    display: block;
+    margin-bottom: 16px;
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+}
+
+
+mat-drawer{
+  border-right: 1px solid rgba(0,0,0,.4);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: -40px;
+}
+
+.mat-card {
+  height: auto;
+}
+
+span {
+  width: 100%;
+  text-align: right;
+}
+
+.mat-toolbar {
+  background: green;
+  color: rgba(0,0,0,.87);
+}
+
+.maior {
+  height: 80px;
+}
+
+footer {
+  bottom: 0;
+  position: relative
+}
+
+footer span {
+  text-align: center;
+}
+
+body ul{
+  display: block;
+}
+
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+@media (max-width: 1024px) {
+  mat-drawer{
+
+  }
+}

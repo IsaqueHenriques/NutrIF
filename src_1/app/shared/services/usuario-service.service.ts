@@ -5,6 +5,7 @@ import { ModelUsuario } from '../models/model-usuario';
 export class UsuarioServiceService {
 
   usuario: Array<ModelUsuario> = [];
+  pesquisado: Array<ModelUsuario> = [];
   usuario_que_logou: ModelUsuario;
 
   constructor() { 
@@ -45,6 +46,16 @@ export class UsuarioServiceService {
           return true;
         }
     }
+  }
+
+  usuario_pesquisar(pesquisa: string){
+    
+    for(let i = this.usuario.length - 1; i >= 0; i--){
+      if(this.usuario[i].nome == pesquisa){
+          this.pesquisado.push(this.usuario[i]);
+        }
+    }
+    return this.pesquisado;
   }
 
 }
